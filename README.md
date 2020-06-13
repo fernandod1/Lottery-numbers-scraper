@@ -4,13 +4,16 @@ Script to scrap lottery numbers from Lottomatica Italia website ( https://www.lo
 ------------------------------------
 Configuration
 ------------------------------------
-1.) Open file lottery.php using a text editor and modify the following lines to use your
+1.) Open file lottery.php using a text editor and modify the following lines to use your MySQL hosting configuration:
 
-MySQL hosting configuration:
 $mysqlserverhost = "MYSQL_HOST";
+
 $database_name = "MYSQL_DATABASE_NAME";
+
 $username_mysql = "MYSQL_USERNAME";
+
 $password_mysql = "MYSQL_PASSWORD";
+
 
 2.) Upload file “lottery.php” to your hosting account.
 
