@@ -1,11 +1,17 @@
 <?
-
+/*
+ Copyright (c) 2020 Fernando
+ Url: https://github.com/fernandod1/
+ License: MIT
+*/
 // Configure your mysql database connection details:
 
 $mysqlserverhost = "";
 $database_name = "";
 $username_mysql = "";
 $password_mysql = "";
+
+// --------------------- Do not modify under this line --------------------------- //
 
 function connect_to_mysqli($mysqlserverhost, $username_mysql, $password_mysql, $database_name){
 	$connect = mysqli_connect($mysqlserverhost, $username_mysql, $password_mysql, $database_name);
